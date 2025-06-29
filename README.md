@@ -59,7 +59,7 @@ All commands should be in this folder:
 ```
 Each command is a .js file that exports a valid Slash Command object, using the SlashCommandBuilder from discord.js.
 
-# 🧱 Basic Structure of a Command
+## 🧱 Basic Structure of a Command
 
 ```js
 // commands/ping.js
@@ -76,7 +76,7 @@ module.exports = {
   },
 };
 ```
-# 🧩 Important Details
+## 🧩 Important Details
 data: Defines the name and description of the command.
 execute: This is the function that is executed when the user uses the command.
 
