@@ -3,7 +3,7 @@ const { SlashCommandBuilder } = require("discord.js");
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("ping")
-    .setDescription("Responde con Pong y mide la latencia del bot"),
+    .setDescription("Respond with Pong and measure bot latency"),
 
     async execute(interaction) {
       const start = Date.now();
